@@ -1,0 +1,15 @@
+Make a POST request to <this URL>...
+curl -XPOST https://api.twilio.com/2010-04-01/Accounts/ACbbd0943e17312304cbdd5b07f0891fa4/Messages.json \
+with form parameter Body = <value>
+-d "Body=Jenny%20please%3F%21%20I%20love%20you%20<3" \
+with form param To = <value>
+-d "To=%2B15558675309" \
+with form param From = <value>
+-d "From=%2B14158141829" \
+with form param MediaUrl = <value>
+-d "MediaUrl=http://www.example.com/hearts.png" \
+with basic authentication User = ACbbd0943e17312304cbdd5b07f0891fa4 
+and basic authentication Password = <auth token>
+-u 'ACbbd0943e17312304cbdd5b07f0891fa4:{AuthToken}'
+
+
